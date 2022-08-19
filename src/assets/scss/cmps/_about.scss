@@ -1,0 +1,123 @@
+.about {
+  background-color: #f4f4f4;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  // overflow: hidden;
+  color: $black-blue;
+
+  .container {
+    font-size: 1.3rem;
+    width: 80%;
+
+    .title {
+      text-align: center;
+      h2 {
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .divider {
+      content: '';
+      width: 150px;
+      display: block;
+      margin: 20px auto;
+      border-bottom: 1px solid #353535;
+    }
+
+    .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    }
+
+    .details-container {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+      margin-right: 15px;
+      margin-left: 15px;
+      .description {
+        color: #3c6e71;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 60px 0 0;
+        .subtitle {
+          h3 {
+            font-size: 1.75rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: $black-blue;
+          }
+        }
+        p {
+          font-size: 1.285rem;
+        }
+      }
+
+      .my-details {
+        width: 30%;
+        position: relative;
+        .fullname {
+          margin: 5px 0;
+          h2 {
+            font-size: 1.75rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 30px;
+          }
+        }
+
+        .email {
+          margin: 5px 0;
+          cursor: pointer;
+          p {
+            font-size: 1.285rem;
+          }
+        }
+
+        .phone {
+          margin: 5px 0;
+          p {
+            font-size: 1.285rem;
+          }
+        }
+
+        .social-bar {
+          display: flex;
+          margin: 10px 0 10px 0;
+          position: absolute;
+          bottom: 0;
+          .logo {
+            cursor: pointer;
+            margin: 0 5px;
+
+            svg {
+              width: 30px;
+              height: 30px;
+              // filter: grayscale(1);
+
+              &:hover {
+                // filter: grayscale(0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
