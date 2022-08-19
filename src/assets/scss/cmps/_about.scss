@@ -1,5 +1,7 @@
 .about {
   background-color: #f4f4f4;
+  background-image: linear-gradient(to bottom, #ffffff, #f4f4f4);
+
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -14,6 +16,7 @@
 
     .title {
       text-align: center;
+      color: $black-blue;
       h2 {
         font-size: 4rem;
         text-transform: uppercase;
@@ -28,7 +31,7 @@
       width: 150px;
       display: block;
       margin: 20px auto;
-      border-bottom: 1px solid #353535;
+      border-bottom: 1px solid #9b9a9a;
     }
 
     .img-container {
@@ -39,6 +42,7 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
+        filter: drop-shadow(2px 2px 4px black);
         display: inline-block;
       }
     }
@@ -72,6 +76,8 @@
       .my-details {
         width: 30%;
         position: relative;
+
+        min-height: 250px;
         .fullname {
           margin: 5px 0;
           h2 {
@@ -104,15 +110,23 @@
           bottom: 0;
           .logo {
             cursor: pointer;
-            margin: 0 5px;
+            margin: 5px 5px;
+            position: relative;
+
+            &.github {
+              left: 75px;
+            }
 
             svg {
-              width: 30px;
-              height: 30px;
-              // filter: grayscale(1);
+              position: absolute;
+              bottom: 0;
+              width: 70px;
+              height: 70px;
+              filter: drop-shadow(2px 2px 4px black);
 
               &:hover {
-                // filter: grayscale(0);
+                width: 75px;
+                height: 75px;
               }
             }
           }

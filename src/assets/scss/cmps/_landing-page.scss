@@ -18,7 +18,12 @@
     font-size: 2.3rem;
 
     h1 {
-      font-size: 2.9rem;
+      font-size: 3.9rem;
+      filter: drop-shadow(2px 2px 9px #7dbc30b1);
+    }
+
+    p {
+      filter: drop-shadow(2px 2px 9px #225564);
     }
 
     .divider {

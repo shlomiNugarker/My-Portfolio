@@ -1,11 +1,12 @@
 .my-projects {
-  background-color: rgb(174, 102, 219);
-  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #888585, #353535);
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px 0;
   overflow: hidden;
+  color: white;
 
   .container {
     text-align: center;
@@ -13,8 +14,16 @@
 
     .title {
       h1 {
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        text-align: center;
       }
       p {
+        margin: 0;
+        font-weight: normal;
+        padding: 0;
+        font-size: 18px;
       }
     }
 
@@ -23,7 +32,15 @@
       width: 150px;
       display: block;
       margin: 20px auto;
-      border-bottom: 1px solid #353535;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .projectList {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }

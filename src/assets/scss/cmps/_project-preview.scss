@@ -1,0 +1,75 @@
+.project-preview {
+  margin: 3px;
+  width: 80%;
+  margin-bottom: 25px;
+
+  .container {
+    .title {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .divider {
+        content: '';
+        width: 100%;
+        display: block;
+        // margin: 20p;
+        border-bottom: 1px solid #ffffff;
+      }
+
+      h4 {
+        margin: 0 15px 0px 15px;
+        font-size: 3.7rem;
+        text-transform: uppercase;
+      }
+    }
+
+    .imgs {
+      .img {
+        border-radius: 10px;
+      }
+    }
+
+    .tags {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0;
+      min-height: 30px;
+      align-items: center;
+      p {
+        margin: 5px 7px;
+        padding: 15px 25px;
+        border: 1px solid;
+        border-radius: 25px;
+      }
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: flex-start;
+      justify-content: center;
+
+      div {
+        margin: 5px 0;
+      }
+
+      .githun-link {
+        p {
+        }
+      }
+      .demo-link {
+        p {
+        }
+      }
+
+      .description {
+        p {
+        }
+      }
+    }
+  }
+}
