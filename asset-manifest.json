@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.707bcb37.css",
+    "main.css": "/My-Portfolio/static/css/main.903d6fe2.css",
     "main.js": "/My-Portfolio/static/js/main.8de0fd38.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/vuex.png": "/My-Portfolio/static/media/vuex.15c57e49a1a77be16f1a.png",
@@ -8,12 +8,12 @@
     "static/media/CSS3.svg.png": "/My-Portfolio/static/media/CSS3.svg.d7ea2a9ca6f803545026.png",
     "static/media/sass.png": "/My-Portfolio/static/media/sass.2cfe4638495c8b186ce9.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.707bcb37.css.map": "/My-Portfolio/static/css/main.707bcb37.css.map",
+    "main.903d6fe2.css.map": "/My-Portfolio/static/css/main.903d6fe2.css.map",
     "main.8de0fd38.js.map": "/My-Portfolio/static/js/main.8de0fd38.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.707bcb37.css",
+    "static/css/main.903d6fe2.css",
     "static/js/main.8de0fd38.js"
   ]
 }
