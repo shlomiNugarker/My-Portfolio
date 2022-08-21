@@ -16,11 +16,15 @@ export const MyProjects = (props) => {
         'vuex',
         'MVC',
         'Single-Page-Application',
+        'Drag and drop',
       ],
       imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661076854/myPortfolio/fzewgnsmyharf6r7la8m.png',
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1660916126/myPortfolio/qdtzolm9ldd5qlquq2aj.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1660916124/myPortfolio/z1stcuqxhfmapn4igopo.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1660916123/myPortfolio/ni1pvrzgoxeu71fr157e.png',
       ],
-      description: 'Full-Stack app',
+      description: 'Taskday is a project management system for collaboration.',
       linkDemo: 'https://fast-eyrie-76140.herokuapp.com/',
       linkGitHub: 'https://github.com/shlomiNugarker/sprint-4',
     },
@@ -29,7 +33,6 @@ export const MyProjects = (props) => {
       title: 'Monopoly',
       tags: [
         'javascript(ES6)',
-        'Socket.io',
         'Vue.js',
         'SCSS',
         'vuex',
@@ -38,19 +41,22 @@ export const MyProjects = (props) => {
       ],
       imgs: [
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1660923765/myPortfolio/oxf2ncafrtmiwushbjg2.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077030/myPortfolio/ypvbcwolwot13zpj83m1.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077094/myPortfolio/lxbklxfub6ar4b1gpuin.png',
       ],
-      description: 'monopoly game',
+      description: 'The most favorite game.',
       linkDemo: 'https://shlominugarker.github.io/monopoly-demo/#/',
       linkGitHub: 'https://github.com/shlomiNugarker/Monoploly-Vue.js',
     },
     /////
     {
-      title: 'Mine Sweeper',
+      title: 'Minesweeper',
       tags: ['Vannila Javascript(ES6)', '2D Arrays'],
       imgs: [
-        'https://res.cloudinary.com/duajg3ah1/image/upload/v1660924156/myPortfolio/f69gqb2muodmd4fsm57g.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661026713/myPortfolio/jewprayumjkndv8m8mbg.png',
       ],
-      description: 'Mine Sweeper game',
+      description:
+        'Select a difficulty level to challenge yourself, and enjoy the game!',
       linkDemo: 'https://shlominugarker.github.io/minesweeper--sprint-1/',
       linkGitHub: 'https://github.com/shlomiNugarker/minesweeper--sprint-1',
     },
@@ -61,11 +67,32 @@ export const MyProjects = (props) => {
       imgs: [
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1660924455/myPortfolio/n9xkm3fgtpafoq5hejiu.png',
       ],
-      description: 'Meme-Generator',
+      description: ' Easily add text to images or memes.',
       linkDemo:
         'https://shlominugarker.github.io/Ultimate-Meme-Generator-sprint-2/',
       linkGitHub:
         'https://github.com/shlomiNugarker/Ultimate-Meme-Generator-sprint-2',
+    },
+    ///
+    {
+      title: 'Social-Netwotk',
+      tags: [
+        'Javascript(ES6)',
+        'MongoDB',
+        'React.js',
+        'Redux',
+        'Rest API',
+        'Single-Page-Application',
+      ],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661017314/myPortfolio/snilwcylvvorimlzlctu.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/msva6uvsal6ov9fsfbow.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/ckpswrwdyqc9ebcjx04e.png',
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/ddd2xbtkwcpjllapbdaj.png',
+      ],
+      description: "A social network project I'm currently working on.",
+      linkDemo: '',
+      linkGitHub: 'https://github.com/shlomiNugarker/Social-Network-Front-',
     },
     /////
   ]
@@ -73,7 +100,7 @@ export const MyProjects = (props) => {
   const [myProjects, setMyProjects] = useState(projects)
 
   return (
-    <section className="my-projects">
+    <section className="my-projects" id="projects-page">
       <div className="container">
         <div className="title">
           <h1>MY PEOJECTS</h1>

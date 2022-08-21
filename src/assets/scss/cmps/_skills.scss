@@ -1,12 +1,13 @@
 .skills {
   // background-color: #a5bbc14f;
   background-image: linear-gradient(to bottom, #f4f4f4, #888585);
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 10%;
 
   .title {
     h1 {
@@ -35,10 +36,23 @@
   .container {
     text-align: center;
     font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      margin-bottom: 15px;
+    }
 
     svg {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
       margin: 15px;
     }
   }

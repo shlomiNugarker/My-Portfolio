@@ -2,7 +2,7 @@
   background-color: #f4f4f4;
   background-image: linear-gradient(to bottom, #ffffff, #f4f4f4);
 
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +38,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
       .img {
         width: 200px;
         height: 200px;
@@ -71,6 +72,22 @@
         p {
           font-size: 1.285rem;
         }
+
+        .cv-container {
+          margin: 50px auto;
+          .cv {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 1.285rem;
+            border: 1px solid #3c6e71;
+            border-radius: 5px;
+            text-decoration: none;
+
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
       }
 
       .my-details {
@@ -91,6 +108,15 @@
         .email {
           margin: 5px 0;
           cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          span {
+            .email-icon {
+              margin-right: 5px;
+            }
+          }
           p {
             font-size: 1.285rem;
           }
@@ -98,8 +124,31 @@
 
         .phone {
           margin: 5px 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          span {
+            width: 20px;
+            .phone-icon {
+              margin-right: 5px;
+            }
+          }
           p {
             font-size: 1.285rem;
+          }
+        }
+
+        .cv {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          a {
+            font-size: 1.285rem;
+          }
+          svg {
+            margin-right: 5px;
           }
         }
 
@@ -116,6 +165,9 @@
             &.github {
               left: 75px;
             }
+            &.whatsapp {
+              left: 150px;
+            }
 
             svg {
               position: absolute;
@@ -125,8 +177,6 @@
               filter: drop-shadow(2px 2px 4px black);
 
               &:hover {
-                width: 75px;
-                height: 75px;
               }
             }
           }

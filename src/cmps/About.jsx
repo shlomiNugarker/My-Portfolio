@@ -1,9 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { GitHubLogo } from '../assets/imgs/GitHubLogo'
 import { LinkedinLogo } from '../assets/imgs/LinkedinLogo'
+import { WhatsAppLogo } from '../assets/imgs/WhatsAppLogo'
+
+import pdf from '../assets/Shlomi_Nugarker_CV.pdf'
 
 export const About = (props) => {
   return (
-    <section className="about">
+    <section className="about" id="about-page">
       <div className="container">
         <div className="title">
           <h2>ABOUT ME</h2>
@@ -27,21 +31,29 @@ export const About = (props) => {
             </div>
 
             <p>
-              I'm a Full-Stack Developer student. Actually, I have a Licence
-              BAC+3 in IT and I just started a computer science Master
-              specialized in artificial intelligence and collaborative systems.
-              IT is not only my professional background. It is also and above
-              all a passion that has grown since I was 16 years old.
+              I'm a junior Full-Stack / Frontend Web Developer with knowledge
+              and experience writing single-page applications using the latest
+              WEB technologies such as Node.js, Vue.js, Vuex, React.js, Redux,
+              and more.
             </p>
+            <br />
 
             <p>
-              I always liked to get into projects using the skills that I did
-              not have or were even spare pure programming like web design, 3D
-              modeling ect... This allowed me to learn to be autonomous and to
-              learn on my own, certainly not without difficulties far from it,
-              but I always managed to overcome the obstacles and solve the
-              problems I encountered !
+              Graduate of the Coding Academy - An intensive coding Bootcamp (640
+              hours) that qualifies Full Stack developers. <br /> I am a highly
+              motivated, currently seeking a Frontend/ Backend Developer
+              position.
+              <br /> <br />
+              Feel free to review my CV and contact me if you think I'd be a
+              good fit for your team.
             </p>
+
+            <div className="cv-container">
+              <a className="cv" href={pdf} download="Shlomi_Nugarker_CV">
+                <FontAwesomeIcon icon="fa-solid fa-file-arrow-down" />
+                My CV
+              </a>
+            </div>
           </div>
 
           <div className="my-details">
@@ -50,14 +62,35 @@ export const About = (props) => {
             </div>
 
             <div className="email">
+              <span>
+                <FontAwesomeIcon
+                  className="email-icon"
+                  icon="fa-solid fa-envelope"
+                />
+              </span>
               <a href="mailto: shlomin1231@gmail.com" target="_blank">
                 <p>E-mail: shlomin1231@gmail.com</p>
               </a>
             </div>
 
             <div className="phone">
-              <p>Phone: 0529526762</p>
+              <span>
+                <FontAwesomeIcon
+                  className="phone-icon"
+                  icon="fa-solid fa-phone"
+                />
+              </span>
+              <a href="tel:052-952-9762">
+                <p>Phone: 0529526762</p>
+              </a>
             </div>
+
+            {/* <div className="cv">
+              <FontAwesomeIcon className="cv-icon" icon="fa-solid fa-file" />
+              <a href={pdf} download="Shlomi_Nugarker_CV">
+                Download my CV
+              </a>
+            </div> */}
 
             <div className="social-bar">
               <span className="linkedin logo">
@@ -72,6 +105,14 @@ export const About = (props) => {
               <span className="github logo">
                 <a href="https://github.com/shlomiNugarker" target="_blank">
                   <GitHubLogo />
+                </a>
+              </span>
+              <span className="whatsapp logo">
+                <a
+                  href="https://wa.me/972529526762?text=Hey Shlomi, "
+                  target="_blank"
+                >
+                  <WhatsAppLogo />
                 </a>
               </span>
             </div>

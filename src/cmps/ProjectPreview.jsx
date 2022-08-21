@@ -1,8 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { GitHubLogo } from '../assets/imgs/GitHubLogo'
 import { utilService } from '../services/utilService'
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
+import { Carousel } from 'react-responsive-carousel'
 
 export const ProjectPreview = ({ project }) => {
   return (
-    <section className="project-preview">
+    <section className="project-preview" id={project.title}>
       <div className="container">
         <div className="title">
           <div className="divider"></div>
@@ -10,11 +15,23 @@ export const ProjectPreview = ({ project }) => {
           <div className="divider"></div>
         </div>
 
-        <div className="imgs">
-          <a href={project.linkDemo} target="_blank">
-            <img src={project.imgs[0]} alt="" className="img" />
-          </a>
-        </div>
+        <Carousel
+          autoPlay={true}
+          infiniteLoop={true}
+          onClickItem={''}
+          showArrows={true}
+          stopOnHover={true}
+          interval={2000}
+          showThumbs={false}
+        >
+          {project.imgs.map((img) => (
+            <div className="imgs" key={utilService.makeId}>
+              <a href={project.linkDemo || project.linkGitHub} target="_blank">
+                <img src={img} alt="" className="img" />
+              </a>
+            </div>
+          ))}
+        </Carousel>
 
         <div className="tags">
           {project.tags.map((tag) => (
@@ -25,22 +42,23 @@ export const ProjectPreview = ({ project }) => {
         <div className="details">
           {project.linkGitHub && (
             <div className="githun-link">
-              <a href={project.linkGitHub}>
-                <p>GitHub: {project.linkGitHub}</p>
+              <a href={project.linkGitHub} target="_blank">
+                <GitHubLogo />
+                <p>GitHub</p>
               </a>
             </div>
           )}
 
           {project.linkDemo && (
-            <div className="Demo-link">
-              <a href={project.linkDemo}>
-                <p>Demo: {project.linkDemo}</p>
+            <div className="demo-link">
+              <a href={project.linkDemo} target="_blank">
+                <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+                <p>Demo </p>
               </a>
             </div>
           )}
 
           <div className="description">
-            description:
             <p>{project.description}</p>
           </div>
         </div>

@@ -5,13 +5,14 @@
   align-items: center;
   justify-content: center;
   color: white;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
 
-  background-image: url('https://hugobollon.me/img/bg.c569c5d2.jpg');
+  background-image: url('https://res.cloudinary.com/duajg3ah1/image/upload/v1661082647/myPortfolio/g0ulikadrzmemfm4nh0w.jpg');
   background-attachment: fixed;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  // height: 100%;
 
   .container {
     text-align: center;
@@ -19,11 +20,11 @@
 
     h1 {
       font-size: 3.9rem;
-      filter: drop-shadow(2px 2px 9px #7dbc30b1);
+      filter: drop-shadow(2px 2px 9px #e4e1d8);
     }
 
     p {
-      filter: drop-shadow(2px 2px 9px #225564);
+      filter: drop-shadow(2px 2px 9px#e4e1d8);
     }
 
     .divider {
