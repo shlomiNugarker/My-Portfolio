@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.707bcb37.css",
-    "main.js": "/static/js/main.f342ad0e.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/vuex.png": "/static/media/vuex.15c57e49a1a77be16f1a.png",
-    "static/media/Shlomi_Nugarker_CV.pdf": "/static/media/Shlomi_Nugarker_CV.1681caae1e10fc5a464c.pdf",
-    "static/media/CSS3.svg.png": "/static/media/CSS3.svg.d7ea2a9ca6f803545026.png",
-    "static/media/sass.png": "/static/media/sass.2cfe4638495c8b186ce9.png",
-    "index.html": "/index.html",
-    "main.707bcb37.css.map": "/static/css/main.707bcb37.css.map",
-    "main.f342ad0e.js.map": "/static/js/main.f342ad0e.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/My-Portfolio/static/css/main.707bcb37.css",
+    "main.js": "/My-Portfolio/static/js/main.8de0fd38.js",
+    "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/vuex.png": "/My-Portfolio/static/media/vuex.15c57e49a1a77be16f1a.png",
+    "static/media/Shlomi_Nugarker_CV.pdf": "/My-Portfolio/static/media/Shlomi_Nugarker_CV.1681caae1e10fc5a464c.pdf",
+    "static/media/CSS3.svg.png": "/My-Portfolio/static/media/CSS3.svg.d7ea2a9ca6f803545026.png",
+    "static/media/sass.png": "/My-Portfolio/static/media/sass.2cfe4638495c8b186ce9.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.707bcb37.css.map": "/My-Portfolio/static/css/main.707bcb37.css.map",
+    "main.8de0fd38.js.map": "/My-Portfolio/static/js/main.8de0fd38.js.map",
+    "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.707bcb37.css",
-    "static/js/main.f342ad0e.js"
+    "static/js/main.8de0fd38.js"
   ]
 }
