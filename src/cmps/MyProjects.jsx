@@ -28,7 +28,6 @@ export const MyProjects = (props) => {
       linkDemo: 'https://fast-eyrie-76140.herokuapp.com/',
       linkGitHub: 'https://github.com/shlomiNugarker/sprint-4',
     },
-    ///////
     {
       title: 'Monopoly',
       tags: [
@@ -48,7 +47,6 @@ export const MyProjects = (props) => {
       linkDemo: 'https://shlominugarker.github.io/monopoly-demo/#/',
       linkGitHub: 'https://github.com/shlomiNugarker/Monoploly-Vue.js',
     },
-    /////
     {
       title: 'Minesweeper',
       tags: ['Vannila Javascript(ES6)', '2D Arrays'],
@@ -60,7 +58,6 @@ export const MyProjects = (props) => {
       linkDemo: 'https://shlominugarker.github.io/minesweeper--sprint-1/',
       linkGitHub: 'https://github.com/shlomiNugarker/minesweeper--sprint-1',
     },
-    //
     {
       title: 'Meme-Generator',
       tags: ['Vannila Javascript(ES6)', 'Canvas'],
@@ -73,7 +70,26 @@ export const MyProjects = (props) => {
       linkGitHub:
         'https://github.com/shlomiNugarker/Ultimate-Meme-Generator-sprint-2',
     },
-    ///
+    {
+      title: 'Pacman',
+      tags: ['Vannila Javascript(ES6)', '2D array'],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661097436/myPortfolio/xij76xyl0pe8xfdiugrs.png',
+      ],
+      description: 'Try not to get disqualified.',
+      linkDemo: 'https://shlominugarker.github.io/pacman/',
+      linkGitHub: 'https://github.com/shlomiNugarker/pacman',
+    },
+    {
+      title: 'Mail-app',
+      tags: ['Vue.js', 'Css', 'CRUDL'],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661112741/myPortfolio/up9mom63hxek86yuah1c.png',
+      ],
+      description: 'My first Vue app in Coding academy bootcamp.',
+      linkDemo: 'https://shlominugarker.github.io/appAsusProj/#/mailBox',
+      linkGitHub: 'https://github.com/shlomiNugarker/appAsusProj',
+    },
     {
       title: 'Social-Netwotk',
       tags: [
@@ -94,7 +110,6 @@ export const MyProjects = (props) => {
       linkDemo: '',
       linkGitHub: 'https://github.com/shlomiNugarker/Social-Network-Front-',
     },
-    /////
   ]
 
   const [myProjects, setMyProjects] = useState(projects)

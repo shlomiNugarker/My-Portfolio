@@ -57,3 +57,32 @@
     }
   }
 }
+
+@media (max-width: 1020px) {
+  .skills {
+    .title {
+      h1 {
+      }
+      p {
+      }
+    }
+
+    .divider {
+      content: '';
+    }
+
+    .container {
+      span {
+      }
+
+      svg {
+        width: 100px;
+        height: 100px;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}

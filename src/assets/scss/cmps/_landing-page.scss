@@ -1,5 +1,4 @@
 .landing-page {
-  background-color: lightseagreen;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -33,6 +32,23 @@
       display: block;
       margin: 20px auto;
       border-bottom: 1px solid #ffffff;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .landing-page {
+    .container {
+      padding: 0 10px;
+
+      h1 {
+      }
+
+      p {
+      }
+
+      .divider {
+      }
     }
   }
 }

@@ -32,17 +32,17 @@ export const About = (props) => {
 
             <p>
               I'm a junior Full-Stack / Frontend Web Developer with knowledge
-              and experience writing single-page applications using the latest
-              WEB technologies such as Node.js, Vue.js, Vuex, React.js, Redux,
-              and more.
+              and experience in writing single-page applications using the
+              latest WEB technologies such as Node.js, Vue.js, Vuex, React.js,
+              Redux, and more.
             </p>
             <br />
 
             <p>
-              Graduate of the Coding Academy - An intensive coding Bootcamp (640
-              hours) that qualifies Full Stack developers. <br /> I am a highly
-              motivated, currently seeking a Frontend/ Backend Developer
-              position.
+              A graduate of the Coding Academy - An intensive coding Bootcamp
+              (640 hours) that qualifies Full Stack developers. <br /> I am
+              highly motivated, and currently seeking a Frontend/ Backend
+              Developer position.
               <br /> <br />
               Feel free to review my CV and contact me if you think I'd be a
               good fit for your team.
@@ -80,7 +80,7 @@ export const About = (props) => {
                   icon="fa-solid fa-phone"
                 />
               </span>
-              <a href="tel:052-952-9762">
+              <a href="tel:052-952-6762">
                 <p>Phone: 0529526762</p>
               </a>
             </div>

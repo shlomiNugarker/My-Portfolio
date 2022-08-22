@@ -31,7 +31,7 @@ export const Footer = (props) => {
             </a>
           </span>
           <span className="phone logo">
-            <a href="tel:052-952-9762" target="_blank">
+            <a href="tel:052-952-6762" target="_blank">
               <FontAwesomeIcon icon="fa-solid fa-phone" />
             </a>
           </span>

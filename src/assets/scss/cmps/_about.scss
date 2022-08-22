@@ -157,6 +157,7 @@
           margin: 10px 0 10px 0;
           position: absolute;
           bottom: 0;
+          // left: 15%;
           .logo {
             cursor: pointer;
             margin: 5px 5px;
@@ -168,12 +169,87 @@
             &.whatsapp {
               left: 150px;
             }
+            &.linkedin {
+            }
 
             svg {
               position: absolute;
               bottom: 0;
               width: 70px;
               height: 70px;
+              filter: drop-shadow(2px 2px 4px black);
+
+              &:hover {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1020px) {
+  // .details-container {
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+}
+
+@media (max-width: 700px) {
+  .about {
+    .container {
+      .details-container {
+        display: flex;
+
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+        .description {
+          padding: 10px;
+          width: 100%;
+        }
+        .my-details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          min-height: 315px;
+
+          .email,
+          .phone {
+            p {
+              font-size: 1.185rem;
+            }
+          }
+        }
+
+        .social-bar {
+          display: flex;
+          margin: 10px 0 10px 0;
+          position: absolute;
+          bottom: 0;
+          left: 9%;
+          .logo {
+            cursor: pointer;
+            margin: 5px 5px;
+            position: relative;
+
+            &.github {
+              left: 75px;
+            }
+            &.whatsapp {
+              left: 150px;
+            }
+            &.linkedin {
+            }
+
+            svg {
+              position: static;
+              bottom: 0;
+              width: 40px;
+              height: 40px;
               filter: drop-shadow(2px 2px 4px black);
 
               &:hover {

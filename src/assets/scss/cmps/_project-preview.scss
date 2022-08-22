@@ -30,6 +30,7 @@
     }
 
     .imgs {
+      cursor: pointer;
       .img {
         border-radius: 10px;
         width: 60%;
@@ -50,6 +51,7 @@
         // padding: 15px 25px;
         border: 1px solid;
         border-radius: 25px;
+        text-transform: uppercase;
       }
     }
 
@@ -71,6 +73,7 @@
         a {
           display: flex;
           align-items: center;
+          padding: 15px;
         }
         svg {
           width: 20px;
@@ -85,6 +88,7 @@
           display: flex;
           align-items: center;
           margin-right: 5px;
+          padding: 15px;
         }
         svg {
           width: 20px;
@@ -97,6 +101,64 @@
 
       .description {
         p {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .project-preview {
+    width: 100%;
+    .container {
+      .title {
+        .divider {
+        }
+
+        h4 {
+          font-size: 2rem;
+        }
+      }
+
+      .imgs {
+        .img {
+          // left: 11%;
+          width: 100%;
+        }
+      }
+
+      .tags {
+        p {
+          padding: 10px;
+        }
+      }
+
+      .details {
+        div {
+        }
+
+        .githun-link {
+          a {
+            padding: 15px;
+          }
+          svg {
+          }
+          p {
+          }
+        }
+        .demo-link {
+          a {
+            padding: 15px;
+          }
+          svg {
+          }
+          p {
+          }
+        }
+
+        .description {
+          p {
+          }
         }
       }
     }

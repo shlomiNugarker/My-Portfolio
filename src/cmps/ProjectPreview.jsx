@@ -18,10 +18,12 @@ export const ProjectPreview = ({ project }) => {
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
-          onClickItem={''}
-          showArrows={true}
+          onClickItem={() =>
+            window.open(project.linkDemo || project.linkGitHub)
+          }
+          showArrows={false}
           stopOnHover={true}
-          interval={2000}
+          interval={4000}
           showThumbs={false}
         >
           {project.imgs.map((img) => (
@@ -53,7 +55,7 @@ export const ProjectPreview = ({ project }) => {
             <div className="demo-link">
               <a href={project.linkDemo} target="_blank">
                 <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
-                <p>Demo </p>
+                <p>Live site</p>
               </a>
             </div>
           )}
