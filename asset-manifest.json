@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.2d03d0cc.css",
-    "main.js": "/My-Portfolio/static/js/main.03d1cd1e.js",
+    "main.js": "/My-Portfolio/static/js/main.ef9de8b2.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/vuex.png": "/My-Portfolio/static/media/vuex.15c57e49a1a77be16f1a.png",
-    "static/media/Shlomi_Nugarker_CV.pdf": "/My-Portfolio/static/media/Shlomi_Nugarker_CV.707b3c3acb1ffc977ed0.pdf",
+    "static/media/Shlomi_Nugarker_CV.pdf": "/My-Portfolio/static/media/Shlomi_Nugarker_CV.80d0ea1489703130fe49.pdf",
     "static/media/CSS3.svg.png": "/My-Portfolio/static/media/CSS3.svg.d7ea2a9ca6f803545026.png",
     "static/media/sass.png": "/My-Portfolio/static/media/sass.2cfe4638495c8b186ce9.png",
     "index.html": "/My-Portfolio/index.html",
     "main.2d03d0cc.css.map": "/My-Portfolio/static/css/main.2d03d0cc.css.map",
-    "main.03d1cd1e.js.map": "/My-Portfolio/static/js/main.03d1cd1e.js.map",
+    "main.ef9de8b2.js.map": "/My-Portfolio/static/js/main.ef9de8b2.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d03d0cc.css",
-    "static/js/main.03d1cd1e.js"
+    "static/js/main.ef9de8b2.js"
   ]
 }
