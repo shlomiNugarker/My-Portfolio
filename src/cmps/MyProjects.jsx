@@ -5,6 +5,29 @@ import { utilService } from '../services/utilService'
 export const MyProjects = (props) => {
   const projects = [
     {
+      title: 'Travelsdin',
+      tags: [
+        'Javascript(ES6)',
+        'MongoDB',
+        'React.js',
+        'Redux',
+        'Rest API',
+        'Node.js',
+        'Live chat',
+        'Socket.io',
+      ],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1662386727/ctivc99rxpjymdn0za1n.png',
+        // 'https://res.cloudinary.com/duajg3ah1/image/upload/v1662038882/myPortfolio/o0sftmhf0qlilrsvkkqe.png',
+
+        // 'https://res.cloudinary.com/duajg3ah1/image/upload/v1661420457/myPortfolio/asfnijahljr0euwmlcjz.png',
+        // 'https://res.cloudinary.com/duajg3ah1/image/upload/v1661369952/myPortfolio/dzknz1bch2afrre2bnud.png',
+      ],
+      description: 'A social network project.',
+      linkDemo: 'https://travelsdin.herokuapp.com/#/home',
+      linkGitHub: 'https://github.com/shlomiNugarker/Social-Network-Front-',
+    },
+    {
       title: 'Taskday',
       tags: [
         'mongoDb',
@@ -17,6 +40,7 @@ export const MyProjects = (props) => {
         'MVC',
         'Single-Page-Application',
         'Drag and drop',
+        'Node.js',
       ],
       imgs: [
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1661076854/myPortfolio/fzewgnsmyharf6r7la8m.png',
@@ -28,16 +52,10 @@ export const MyProjects = (props) => {
       linkDemo: 'https://fast-eyrie-76140.herokuapp.com/',
       linkGitHub: 'https://github.com/shlomiNugarker/sprint-4',
     },
+
     {
       title: 'Monopoly',
-      tags: [
-        'javascript(ES6)',
-        'Vue.js',
-        'SCSS',
-        'vuex',
-        'MVC',
-        'Single-Page-Application',
-      ],
+      tags: ['javascript(ES6)', 'Vue.js', 'SCSS', 'vuex', 'MVC'],
       imgs: [
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1660923765/myPortfolio/oxf2ncafrtmiwushbjg2.png',
         'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077030/myPortfolio/ypvbcwolwot13zpj83m1.png',
@@ -46,6 +64,16 @@ export const MyProjects = (props) => {
       description: 'The most favorite game.',
       linkDemo: 'https://shlominugarker.github.io/monopoly-demo/#/',
       linkGitHub: 'https://github.com/shlomiNugarker/Monoploly-Vue.js',
+    },
+    {
+      title: 'Chess',
+      tags: ['Typescript'],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1665134628/myPortfolio/kshsrpezdwtcjvw6kupy.png',
+      ],
+      description: 'Chess !!',
+      linkDemo: 'https://shlominugarker.github.io/Chess/',
+      linkGitHub: 'https://github.com/shlomiNugarker/Chess',
     },
     {
       title: 'Minesweeper',
@@ -57,6 +85,16 @@ export const MyProjects = (props) => {
         'Select a difficulty level to challenge yourself, and enjoy the game!',
       linkDemo: 'https://shlominugarker.github.io/minesweeper--sprint-1/',
       linkGitHub: 'https://github.com/shlomiNugarker/minesweeper--sprint-1',
+    },
+    {
+      title: 'Snake',
+      tags: ['Vannila Javascript(ES6)', '2D array'],
+      imgs: [
+        'https://res.cloudinary.com/duajg3ah1/image/upload/v1662967686/myPortfolio/fxznj0uz82fykb6whhbi.png',
+      ],
+      description: 'Try not to get disqualified.',
+      linkDemo: 'https://shlominugarker.github.io/Snake-Vannila-JS/',
+      linkGitHub: 'https://github.com/shlomiNugarker/Snake-Vannila-JS',
     },
     {
       title: 'Meme-Generator',
@@ -80,6 +118,7 @@ export const MyProjects = (props) => {
       linkDemo: 'https://shlominugarker.github.io/pacman/',
       linkGitHub: 'https://github.com/shlomiNugarker/pacman',
     },
+
     {
       title: 'Mail-app',
       tags: ['Vue.js', 'Css', 'CRUDL'],
@@ -89,26 +128,6 @@ export const MyProjects = (props) => {
       description: 'My first Vue app in Coding academy bootcamp.',
       linkDemo: 'https://shlominugarker.github.io/appAsusProj/#/mailBox',
       linkGitHub: 'https://github.com/shlomiNugarker/appAsusProj',
-    },
-    {
-      title: 'Social-Netwotk',
-      tags: [
-        'Javascript(ES6)',
-        'MongoDB',
-        'React.js',
-        'Redux',
-        'Rest API',
-        'Single-Page-Application',
-      ],
-      imgs: [
-        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661017314/myPortfolio/snilwcylvvorimlzlctu.png',
-        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/msva6uvsal6ov9fsfbow.png',
-        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/ckpswrwdyqc9ebcjx04e.png',
-        'https://res.cloudinary.com/duajg3ah1/image/upload/v1661077570/myPortfolio/ddd2xbtkwcpjllapbdaj.png',
-      ],
-      description: "A social network project I'm currently working on.",
-      linkDemo: '',
-      linkGitHub: 'https://github.com/shlomiNugarker/Social-Network-Front-',
     },
   ]
 
